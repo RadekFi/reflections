@@ -6,13 +6,16 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 	I can choose which files from working directory should be tracked by adding them to staging area. All files are in repository, but only files from staging area are tracked.
-abc
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	
+	You can compare versions of your file between working directory, staging area and repository using git diff and git diff --staged
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	Helps to develop my app in different direction withot affecting the main version. New branch is useful to experiment.
 
 How do the diagrams help you visualize the branch structure?
 
